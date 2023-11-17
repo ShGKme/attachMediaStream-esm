@@ -1,0 +1,37 @@
+{
+  "name": "attachmediastream-esm",
+  "version": "2.1.0",
+  "description": "ESM version of attachMediaStream package",
+  "type": "module",
+  "main": "attachmediastream.cjs",
+  "exports": {
+    "import": "./attachmediastream.mjs",
+    "require": "./attachmediastream.cjs"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShGKme/attachMediaStream-esm.git"
+  },
+  "keywords": [
+    "browser",
+    "getUserMedia",
+    "WebRTC",
+    "video",
+    "attachMediaStream",
+    "esm"
+  ],
+  "author": "Grigorii K. Shartsev <me@shgk.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShGKme/attachMediaStream-esm/issues"
+  },
+  "homepage": "https://github.com/ShGKme/attachMediaStream-esm#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "attachmediastream": "^2.1.0",
+    "rollup": "^4.4.1"
+  }
+}
